@@ -35,9 +35,11 @@ flutter:
 
 #------------------LOCAL-ASSETS----------------#
   assets:
-    - assetts/logos/
-    - assetts/icons/
-    - assetts/images/
+    - assets/logos/
+    - assets/icons/
+    - assets/icons/brands
+
+    - assets/images/
 
     #------------------LOCAL-FONTS----------------#
 
