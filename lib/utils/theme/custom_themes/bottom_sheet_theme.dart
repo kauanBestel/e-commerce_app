@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TBottomSheetTheme{
-  TBottomSheetTheme._()
+class CBottomSheetTheme{
+  CBottomSheetTheme._();
 
+  ///custommade light bottomsheet 
   static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
     backgroundColor: Colors.white,
@@ -11,6 +12,7 @@ class TBottomSheetTheme{
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   );
 
+ ///custommade dark bottomsheet
  static BottomSheetThemeData darkBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
     backgroundColor: Colors.black,
@@ -18,7 +20,5 @@ class TBottomSheetTheme{
     constraints: const BoxConstraints(minWidth: double.infinity),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
  );
-
-
 }
 

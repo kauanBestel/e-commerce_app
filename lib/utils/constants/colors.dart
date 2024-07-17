@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class CColors{
@@ -11,15 +10,14 @@ class CColors{
 
 
   //gradientes
-  static const Gradient linerGradient = linearGradient(
-    begin: Alignment(0.0, 0,0),
-    end: Alignment(0.707, 0.707)
+  static const Gradient linerGradient = LinearGradient(
+    begin: Alignment(0.0, 0.0),
+    end: Alignment(0.707, 0.707),
     colors: [
       Color(0xffff9a9e),
       Color(0xfffad0c4),
       Color(0xfffad0c4),
     ]
-
   );
 
 
