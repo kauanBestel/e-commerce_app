@@ -13,12 +13,21 @@ dependencies:
 
 #Utility Packages
 
+http: ^1.2.2
+intl: ^0.19.0
+logger: ^2.4.0
+url_launcher: ^6.3.0
+
+
 #icons
 iconsax: ^0.0.8
 cupertino_icons: ^1.0.8
 
+
 #state Management
+
 get: ^4.6.6
+get_storage: ^2.1.1
 
 #Product Specific
 

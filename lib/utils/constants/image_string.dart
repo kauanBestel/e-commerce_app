@@ -1,4 +1,4 @@
-/// essa classe contem todas as imagens do app em formato de string
+/// essa classe contem todas as imagens do app em formato de string para que, caso alguma imagem seja substituida, não tenhamos que alterar tudo manualmente no codigo 
 
 class CImages{
 
